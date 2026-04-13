@@ -8,7 +8,7 @@
 import SwiftUI
 
 @Observable
-class WeatherViewModel: ObservableObject {
+class WeatherViewModel {
     var city : String = ""
     var weather : WeatherResponse?
     var isLoading : Bool = false

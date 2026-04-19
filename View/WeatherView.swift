@@ -9,7 +9,7 @@ import SwiftUI
 
 struct WeatherView: View {
     //MARK: STATE OLDUĞU İÇİN HATA VERİYORDU. STATEOBJECT YAPINCA DÜZELD
-    @StateObject private var vm = WeatherViewModel()
+    @State private var vm = WeatherViewModel()
     @AppStorage("useFahrenheit") private var useFahrenheit = false
     //@AppStorage aslında kalıcı hafıza (persistent storage) görevi görüyor.
     //Yani uygulamayı kapatsan bile, ayar kaybolmuyor

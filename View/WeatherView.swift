@@ -22,9 +22,6 @@ struct WeatherView: View {
                     .padding(.horizontal)
                 
                 Button {
-                    //TODO: Fetch weather from view model
-                    //Task: Yeni bir asenkron görev (lightweight thread) oluşturur.
-                    WeatherViewModel()
                     Task{
                         await vm.fetch()
                         //fetch fonksiyonu async olarak tanımlı olduğu için await demeliyiz

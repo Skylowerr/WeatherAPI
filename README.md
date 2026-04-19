@@ -76,7 +76,7 @@ The app reads the API key securely from `Info.plist` at runtime. To set it up:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/WeatherAppAPI.git
+   git clone https://github.com/Skylowerr/WeatherAppAPI.git
    cd WeatherAppAPI
    ```
 
